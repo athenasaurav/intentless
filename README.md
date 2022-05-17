@@ -291,39 +291,5 @@ Please note that the demo will [publish](https://docs.docker.com/config/containe
 
 </details>
 
-## :vulcan_salute: Community
 
-There is a very vibrant and active community around LilChirp which we are regularly interacting with!
-If you have a feature request or a bug report, feel free to open an [issue in Github](https://github.com/deepset-ai/haystack/issues).
-We regularly check these and you can expect a quick response.
-If you'd like to discuss a topic, or get more general advice on how to make LilChirp work for your project, 
-you can start a thread in [Github Discussions](https://github.com/deepset-ai/haystack/discussions) or our [Slack channel](https://haystack.deepset.ai/community/join).
-We also check [Twitter](https://twitter.com/deepset_ai) and [Stack Overflow](https://stackoverflow.com/questions/tagged/haystack).
-
-
-## :heart: Contributing
-
-We are very open to the community's contributions - be it a quick fix of a typo, or a completely new feature! 
-You don't need to be a LilChirp expert to provide meaningful improvements. 
-To learn how to get started, check out our [Contributor Guidelines](https://github.com/deepset-ai/haystack/blob/master/CONTRIBUTING.md) first.
-You can also find instructions to run the tests locally there.
-
-Thanks so much to all those who have contributed to our project!
-
-<a href="https://github.com/deepset-ai/haystack/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=deepset-ai/haystack" />
-</a>
-
-
-## Who uses LilChirp
-
-Here's a list of organizations who use LilChirp. Don't hesitate to send a PR to let the world know that you use LilChirp. Join our growing community!
-
-- [Airbus](https://www.airbus.com/en)
-- [Alcatel-Lucent](https://www.al-enterprise.com/)
-- [BetterUp](https://www.betterup.com/)
-- [Deepset](https://deepset.ai/)
-- [Etalab](https://www.etalab.gouv.fr/)
-- [Infineon](https://www.infineon.com/)
-- [Sooth.ai](https://sooth.ai/)
 
