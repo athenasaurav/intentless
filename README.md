@@ -228,7 +228,7 @@ Explore the rest of our tutorials to learn how to tweak pipelines, train models 
 
 **Hosted**
 
-Try out our hosted [Explore The World](https://haystack-demo.deepset.ai/) live demo here!
+Try out our hosted [Explore The World](https://semantic.lilchirp.io/) live demo here!
 Ask any question on countries or capital cities and let LilChirp return the answers to you. 
 
 **Local**
