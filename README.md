@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://www.deepset.ai/haystack/"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/img/haystack_logo_colored.png" alt="Haystack"></a>
+<!--   <a href="https://www.deepset.ai/haystack/"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/img/haystack_logo_colored.png" alt="Haystack"></a> -->
 </p>
 
 <p>
     <a href="https://github.com/deepset-ai/haystack/actions">
-        <img alt="Build" src="https://github.com/deepset-ai/haystack/workflows/Build/badge.svg?branch=master">
+<!--         <img alt="Build" src="https://github.com/deepset-ai/haystack/workflows/Build/badge.svg?branch=master"> -->
     </a>
     <a href="https://haystack.deepset.ai/overview/intro">
         <img alt="Documentation" src="https://img.shields.io/website/http/haystack.deepset.ai/docs/intromd.svg?down_color=red&down_message=offline&up_message=online">
