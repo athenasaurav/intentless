@@ -1,5 +1,5 @@
 <p align="center">
-<!--   <a href="https://www.deepset.ai/haystack/"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/img/haystack_logo_colored.png" alt="Haystack"></a> -->
+<!--   <a href="https://www.deepset.ai/haystack/"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/img/haystack_logo_colored.png" alt="LilChirp"></a> -->
 </p>
 
 <p>
@@ -26,13 +26,13 @@
     </a>    
 </p>
 
-Haystack is an end-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases.
-Whether you want to perform Question Answering or semantic document search, you can use the State-of-the-Art NLP models in Haystack to provide unique search experiences and allow your users to query in natural language.
-Haystack is built in a modular fashion so that you can combine the best technology from other open-source projects like Huggingface's Transformers, Elasticsearch, or Milvus.
+LilChirp is an end-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases.
+Whether you want to perform Question Answering or semantic document search, you can use the State-of-the-Art NLP models in LilChirp to provide unique search experiences and allow your users to query in natural language.
+LilChirp is built in a modular fashion so that you can combine the best technology from other open-source projects like Huggingface's Transformers, Elasticsearch, or Milvus.
 
 <p align="center"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/master/docs/img/main_example.gif"></p>
 
-## What to build with Haystack
+## What to build with LilChirp
 
 - **Ask questions in natural language** and find granular answers in your documents.
 - Perform **semantic search** and retrieve documents according to meaning, not keywords
@@ -45,7 +45,7 @@ Haystack is built in a modular fashion so that you can combine the best technolo
 
 - **Latest models**: Utilize all latest transformer-based models (e.g., BERT, RoBERTa, MiniLM) for extractive QA, generative QA, and document retrieval.
 - **Modular**: Multiple choices to fit your tech stack and use case. Pick your favorite database, file converter, or modeling framework.
-- **Pipelines**: The Node and Pipeline design of Haystack allows for custom routing of queries to only the relevant components.
+- **Pipelines**: The Node and Pipeline design of LilChirp allows for custom routing of queries to only the relevant components.
 - **Open**: 100% compatible with HuggingFace's model hub. Tight interfaces to other frameworks (e.g., Transformers, FARM, sentence-transformers)
 - **Scalable**: Scale to millions of docs via retrievers, production-ready backends like Elasticsearch / FAISS, and a fastAPI REST API
 - **End-to-End**: All tooling in one place: file conversion, cleaning, splitting, training, eval, inference, labeling, etc.
@@ -56,13 +56,13 @@ Haystack is built in a modular fashion so that you can combine the best technolo
 |  |  |
 |-|-|
 | :ledger: [Docs](https://haystack.deepset.ai/overview/intro) | Overview, Components, Guides, API documentation|
-| :floppy_disk: [Installation](https://github.com/deepset-ai/haystack#floppy_disk-installation) | How to install Haystack |
-| :mortar_board: [Tutorials](https://github.com/deepset-ai/haystack#mortar_board-tutorials) | See what Haystack can do with our Notebooks & Scripts |
-| :beginner: [Quick Demo](https://github.com/deepset-ai/haystack#beginner-quick-demo) | Deploy a Haystack application with Docker Compose and a REST API |
+| :floppy_disk: [Installation](https://github.com/deepset-ai/haystack#floppy_disk-installation) | How to install LilChirp |
+| :mortar_board: [Tutorials](https://github.com/deepset-ai/haystack#mortar_board-tutorials) | See what LilChirp can do with our Notebooks & Scripts |
+| :beginner: [Quick Demo](https://github.com/deepset-ai/haystack#beginner-quick-demo) | Deploy a LilChirp application with Docker Compose and a REST API |
 | :vulcan_salute: [Community](https://github.com/deepset-ai/haystack#vulcan_salute-community) | [Slack](https://haystack.deepset.ai/community/join), [Twitter](https://twitter.com/deepset_ai), [Stack Overflow](https://stackoverflow.com/questions/tagged/haystack), [GitHub Discussions](https://github.com/deepset-ai/haystack/discussions) |
 | :heart: [Contributing](https://github.com/deepset-ai/haystack#heart-contributing) | We welcome all contributions! |
 | :bar_chart: [Benchmarks](https://haystack.deepset.ai/benchmarks/latest) | Speed & Accuracy of Retriever, Readers and DocumentStores |
-| :telescope: [Roadmap](https://haystack.deepset.ai/overview/roadmap) | Public roadmap of Haystack |
+| :telescope: [Roadmap](https://haystack.deepset.ai/overview/roadmap) | Public roadmap of LilChirp |
 | :newspaper: [Blog](https://medium.com/deepset-ai) | Read our articles on Medium |
 | :phone: [Jobs](https://www.deepset.ai/jobs) | We're hiring! Have a look at our open positions |
 
@@ -71,7 +71,7 @@ Haystack is built in a modular fashion so that you can combine the best technolo
 
 **1. Basic Installation**
 
-You can install a basic version of Haystack's latest release by using [pip](https://github.com/pypa/pip).
+You can install a basic version of LilChirp's latest release by using [pip](https://github.com/pypa/pip).
 
 ```
     pip3 install farm-haystack
@@ -82,8 +82,8 @@ This command will install everything needed for basic Pipelines that use an Elas
 **2. Full Installation**
 
 If you plan to be using more advanced features like Milvus, FAISS, Weaviate, OCR or Ray,
-you will need to install a full version of Haystack.
-The following command will install the latest version of Haystack from the master branch.
+you will need to install a full version of LilChirp.
+The following command will install the latest version of LilChirp from the master branch.
 
 ```
 git clone https://github.com/deepset-ai/haystack.git
@@ -98,7 +98,7 @@ If you cannot upgrade `pip` to version 21.3 or higher, you will need to replace:
 
 For an complete list of the dependency groups available, have a look at the `haystack/setup.cfg` file.
 
-To install the REST API and UI, run the following from the root directory of the Haystack repo
+To install the REST API and UI, run the following from the root directory of the LilChirp repo
 
 ```
 pip install rest_api/
@@ -113,7 +113,7 @@ pip install farm-haystack -f https://download.pytorch.org/whl/torch_stable.html
 
 **4. Installing on Apple Silicon (M1)**
 
-M1 Macbooks require some extra depencies in order to install Haystack.
+M1 Macbooks require some extra depencies in order to install LilChirp.
 
 ```
 # some additional dependencies needed on m1 mac
@@ -229,11 +229,11 @@ Explore the rest of our tutorials to learn how to tweak pipelines, train models 
 **Hosted**
 
 Try out our hosted [Explore The World](https://haystack-demo.deepset.ai/) live demo here!
-Ask any question on countries or capital cities and let Haystack return the answers to you. 
+Ask any question on countries or capital cities and let LilChirp return the answers to you. 
 
 **Local**
 
-Start up a Haystack service via [Docker Compose](https://docs.docker.com/compose/).
+Start up a LilChirp service via [Docker Compose](https://docs.docker.com/compose/).
 With this you can begin calling it directly via the REST API or even interact with it using the included Streamlit UI.
 
 <details>
@@ -246,7 +246,7 @@ With this you can begin calling it directly via the REST API or even interact wi
     service docker start
 ```
 
-**2. Clone Haystack repository**
+**2. Clone LilChirp repository**
 
 ```
     git clone https://github.com/deepset-ai/haystack.git
@@ -273,7 +273,7 @@ ui_1             |   External URL: http://192.168.108.218:8501
 haystack-api_1   | [2021-01-01 10:21:58 +0000] [17] [INFO] Application startup complete.
 ```
 
-**4. Open the Streamlit UI for Haystack by pointing your browser to the "External URL" from above.**
+**4. Open the Streamlit UI for LilChirp by pointing your browser to the "External URL" from above.**
 
 You should see the following:
 
@@ -283,7 +283,7 @@ You can then try different queries against a pre-defined set of indexed articles
 
 **Note**: The following containers are started as a part of this demo:
 
-* Haystack API: listens on port 8000
+* LilChirp API: listens on port 8000
 * DocumentStore (Elasticsearch): listens on port 9200
 * Streamlit UI: listens on port 8501
 
@@ -293,10 +293,10 @@ Please note that the demo will [publish](https://docs.docker.com/config/containe
 
 ## :vulcan_salute: Community
 
-There is a very vibrant and active community around Haystack which we are regularly interacting with!
+There is a very vibrant and active community around LilChirp which we are regularly interacting with!
 If you have a feature request or a bug report, feel free to open an [issue in Github](https://github.com/deepset-ai/haystack/issues).
 We regularly check these and you can expect a quick response.
-If you'd like to discuss a topic, or get more general advice on how to make Haystack work for your project, 
+If you'd like to discuss a topic, or get more general advice on how to make LilChirp work for your project, 
 you can start a thread in [Github Discussions](https://github.com/deepset-ai/haystack/discussions) or our [Slack channel](https://haystack.deepset.ai/community/join).
 We also check [Twitter](https://twitter.com/deepset_ai) and [Stack Overflow](https://stackoverflow.com/questions/tagged/haystack).
 
@@ -304,7 +304,7 @@ We also check [Twitter](https://twitter.com/deepset_ai) and [Stack Overflow](htt
 ## :heart: Contributing
 
 We are very open to the community's contributions - be it a quick fix of a typo, or a completely new feature! 
-You don't need to be a Haystack expert to provide meaningful improvements. 
+You don't need to be a LilChirp expert to provide meaningful improvements. 
 To learn how to get started, check out our [Contributor Guidelines](https://github.com/deepset-ai/haystack/blob/master/CONTRIBUTING.md) first.
 You can also find instructions to run the tests locally there.
 
@@ -315,9 +315,9 @@ Thanks so much to all those who have contributed to our project!
 </a>
 
 
-## Who uses Haystack
+## Who uses LilChirp
 
-Here's a list of organizations who use Haystack. Don't hesitate to send a PR to let the world know that you use Haystack. Join our growing community!
+Here's a list of organizations who use LilChirp. Don't hesitate to send a PR to let the world know that you use LilChirp. Join our growing community!
 
 - [Airbus](https://www.airbus.com/en)
 - [Alcatel-Lucent](https://www.al-enterprise.com/)
