@@ -249,7 +249,7 @@ With this you can begin calling it directly via the REST API or even interact wi
 **2. Clone LilChirp repository**
 
 ```
-    git clone https://github.com/deepset-ai/haystack.git
+    git clone https://github.com/athenasaurav/intentless.git
 ```
 
 **3. Pull images & launch demo app**
